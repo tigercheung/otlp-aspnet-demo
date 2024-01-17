@@ -1,0 +1,6 @@
+@Crp.Lst.Calculation_HostAddress = http://localhost:5173
+
+GET {{Crp.Lst.Calculation_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

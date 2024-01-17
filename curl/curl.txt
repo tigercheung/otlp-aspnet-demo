@@ -1,0 +1,1 @@
+curl --insecure -ivl -H "lightstep-access-token:2GljUxlKUVed3a1dWbTvBeBUsht7OOndfjbjxhKVG/P939CCnxjiKBvDvHrVNqqIrf2iGN60vNv6NGm7f+8208LpWOAYWjr0e+idAQBJ" -H "Content-Type: application/json" https://ingest.lightstep.com/traces/otlp/v0.9 -d @otlp_trace_sample_data.json
