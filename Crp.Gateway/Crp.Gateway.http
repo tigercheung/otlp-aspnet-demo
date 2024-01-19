@@ -1,6 +1,6 @@
-@Crp.Gateway_HostAddress = http://localhost:5182
+@Crp.Gateway_HostAddress = https://localhost:5001
 
-GET {{Crp.Gateway_HostAddress}}/weatherforecast/
+GET {{Crp.Gateway_HostAddress}}/api/weatherforecast/
 Accept: application/json
 
 ###
