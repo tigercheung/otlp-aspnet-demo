@@ -12,7 +12,7 @@ https://www.mytechramblings.com/posts/getting-started-with-opentelemetry-and-dot
 ```
 https://ingest.lightstep.com[:443]/v1/traces
 or 
-ttps://ingest.lightstep.com:443/traces/otlp/v0.9
+https://ingest.lightstep.com:443/traces/otlp/v0.9
 ```
 
 #### Endpoint accepting application/x-protobuf
@@ -39,7 +39,7 @@ using OpenTelemetry.Trace;
 
 Creating Web API project
 ```
-dotnet new webapi --name CRP.LST.AspNetCore.Calculation --use-controllers
+dotnet new webapi --name CRP.LST.Calculation --use-controllers
 ```
 
 # References
